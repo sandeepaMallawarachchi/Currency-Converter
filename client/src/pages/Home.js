@@ -116,7 +116,7 @@ export default function Home() {
                     <span className='text-green-500 font-bold'>{amountTarget}</span> in {" "} {currencyNames[targetCurrency]}
                 </section>
             ) : (
-                <span className='text-center'>Loading...</span>
+                <section className='text-center mt-7'>Loading...</section>
             )}
         </div>
     )
