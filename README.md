@@ -1,6 +1,6 @@
 # Currency Converter
 
-![currencyConvert](https://github.com/sandeepaMallawarachchi/Currency-Converter/assets/126542051/f913ff50-f97b-47c7-b778-52397390afbd)
+![image](https://github.com/sandeepaMallawarachchi/Currency-Converter/assets/126542051/3306191f-83d8-4a24-bbaa-1ac752fcff7d)
 
 ## About Currency Converter
 
@@ -36,3 +36,6 @@ View the converted amount once the loading message disappears.
 ## License & Api
 
 I have used [openexchangerates](https://openexchangerates.org/) as a api and web application is hosted using [vercel](https://vercel.com/) platform.
+
+## Try it out here
+https://currency-converter-client-kappa.vercel.app/
