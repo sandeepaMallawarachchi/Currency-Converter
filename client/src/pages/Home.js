@@ -20,7 +20,7 @@ export default function Home() {
         setBtnClicked(false);
 
         try {
-            const response = await axios.get('http://localhost:5000/convert', {
+            const response = await axios.get('https://currency-converter-server-pi.vercel.app/convert', {
                 params: {
                     date,
                     sourceCurrency,
@@ -44,7 +44,7 @@ export default function Home() {
     useEffect(() => {
         const getCurrencyNames = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/getAllCurrencies');
+                const response = await axios.get('https://currency-converter-server-pi.vercel.app/getAllCurrencies');
                 setCurrencyNames(response.data);
             } catch (error) {
                 console.log(error);
