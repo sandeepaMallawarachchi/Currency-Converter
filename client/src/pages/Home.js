@@ -118,6 +118,10 @@ export default function Home() {
             ) : (
                 <section className='text-center mt-7'>Loading...</section>
             )}
+
+            <div className="bottom-0 w-full bg-gray-800 text-white py-4 text-center left-0 mt-10 lg:absolute">
+                &copy; 2024 Sandeepa Mallawarachchi. All rights reserved.
+            </div>
         </div>
     )
 }
